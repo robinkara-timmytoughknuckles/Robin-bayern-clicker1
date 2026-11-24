@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Gör så att sidan kan visa olika tecken rätt -->
+        <meta charset="UTF-8">
+        <!-- Anpassar sidan efter skärmens storlek -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Namnet som visas på webbläsarens flik -->
+        <title>Bayern Munchen Clicker</title>
+        <!-- Kopplar HTML till CSS-filen -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Kopplar HTML till JavaScript-filen -->
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!-- Spelets huvudrubrik -->
+        <h1>BAYERN MÜNCHEN CLICKER</h1>
+        <!-- Huvudcontainer för spelet -->
+         <div id="game-section">
+            <!-- Vänster sida: själva klickspelet -->
+             <div id="clicker">
+                <!-- Visar spelarens poäng -->
+                 <div id="stats">
+                    <h2 id="score">0</h2>
+                    <p>Bayern points</p>
+                 </div>
+                 <!-- Klickbart objekt -->
+                  <button id="click-button">
+                    <img src="bayernlogo.png" alt="Bayern Munchen Logo">
+                  </button>
+             </div>
+            <!-- Höger sida: uppgraderingar -->
+             <div id="upgrades">
+                <!-- Rubrik för uppgraderingar -->
+                <h2>Upgrades</h2>
+                <div id="upgrade-list">
+                    
+                </div>
+             </div>
+         </div>
+    </body>
+</html>
